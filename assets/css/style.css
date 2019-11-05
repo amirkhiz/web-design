@@ -1,6 +1,6 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -33,7 +33,7 @@ header {
     padding: 8px;
 }
 
-.butt {
+.btn {
     border: 2px solid #797fd4;
     background: #797fd4;
     color: white;
@@ -190,7 +190,7 @@ nav {
 }
 
 .cta {
-    padding: 50px 0px 0px 0px;
+    padding: 50px 0 0 0;
 }
 
 .cta-select {
@@ -212,7 +212,7 @@ nav {
     text-decoration: none;
     cursor: pointer;
     border-radius: 20%;
-    margin: 30px 0px 0px 30 pxn
+    margin: 30px 0 0 30px;
 }
 
 .cover {
@@ -224,20 +224,21 @@ nav {
 
 .cover img {
     height: 100%;
-    align-content: left;
+    /* The value "left" is not a valid value for "align-content"  */
+    /*align-content: left;*/
     animation: drop 1.5s ease;
 }
 
-.big-circ {
+.big-circle {
     position: absolute;
-    top: 0px;
-    right: 0px;
+    top: 0;
+    right: 0;
     z-index: -1;
     opacity: 0.5;
     height: 80%;
 }
 
-.mid-circ {
+.mid-circle {
     position: absolute;
     top: 30%;
     right: 30%;
@@ -246,7 +247,7 @@ nav {
     height: 75%;
 }
 
-.small-circ {
+.small-circle {
     position: absolute;
     top: 50%;
     right: 40%;
@@ -269,7 +270,6 @@ nav {
     background-color: rgba(206, 150, 150, 0.418);
     position: absolute;
     top: 0;
-    display: flex;
     justify-content: center;
     align-items: center;
     display: none;
@@ -288,7 +288,7 @@ nav {
     padding: 30px;
 }
 
-.modeljoin {
+.model-join {
     width: 100%;
     height: 100%;
     background-color: rgba(29, 128, 29, 0.253);
@@ -299,7 +299,7 @@ nav {
     display: none;
 }
 
-.model-contentjoin {
+.model-content-join {
     width: 500px;
     height: 300px;
     background-color: rgb(114, 162, 250);
@@ -317,7 +317,7 @@ input {
     border: 1px solid gray;
 }
 
-.closetab {
+.close-tab {
     position: absolute;
     top: 0;
     right: 10px;
@@ -380,7 +380,7 @@ input {
     }
 
     .cta {
-        padding: 10px 0px 0px 0px;
+        padding: 10px 0 0 0;
     }
 
     .selective {
